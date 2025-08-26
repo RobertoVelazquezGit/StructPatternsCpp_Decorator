@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OutputStream" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAA=</HashCode>
+      <FileName>OutputStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FileOutputStream" Collapsed="true">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABBAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAA=</HashCode>
+      <FileName>FileOutputStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OutputDecorator" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.5" />
+    <AssociationLine Name="m_pOS" Type="OutputStream" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9" Y="2.125" />
+        <Point X="9.75" Y="2.125" />
+        <Point X="9.75" Y="0.75" />
+        <Point X="6" Y="0.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAGAEAA=</HashCode>
+      <FileName>OutputDecorator.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_pOS" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BufferedOutputStream" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAgAA=</HashCode>
+      <FileName>BufferedOutputStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EncryptedStream" Collapsed="true">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAGAAAA=</HashCode>
+      <FileName>EncryptedStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompressedOutputStream" Collapsed="true">
+    <Position X="9.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAGAAAA=</HashCode>
+      <FileName>CompressedOutputStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
